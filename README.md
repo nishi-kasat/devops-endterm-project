@@ -22,3 +22,24 @@ Automated CI/CD Deployment Pipeline using GitHub, Jenkins, and AWS Cloud Service
 - Occupation distribution analysis
 - Sample user records
 - CI/CD deployment pipeline
+
+## Project Workflow
+
+1. Source code is maintained using GitHub.
+2. Jenkins automatically fetches the latest code after every push.
+3. The application is built and tested through the Jenkins pipeline.
+4. The application is deployed on an AWS EC2 instance.
+5. The dataset is stored in AWS S3 and accessed by the deployed application.
+
+## Repository Structure
+
+```
+.
+├── app.py
+├── Jenkinsfile
+├── requirements.txt
+├── dataset/
+├── templates/
+├── static/
+└── README.md
+```
